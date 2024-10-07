@@ -1,0 +1,42 @@
+.main{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    transition: all 0.7s;
+}
+
+.items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.item-container{
+    height: auto;
+    width: auto;
+    /* background-color: #FDEC5E; */
+    /* padding: 30px; */
+    /* border-radius: 10px; */
+}
+
+.item img{
+    border-radius: 10px;
+    height: auto;
+    width: 80%;
+}
+
+.disc{
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}

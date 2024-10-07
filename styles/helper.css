@@ -1,0 +1,16 @@
+.hide{
+    visibility: none;
+    transform: translateY(150px);
+    opacity: 0;
+}
+
+.hidden{
+    opacity: 0;
+    display: none;
+}
+
+.hide-menu{
+    visibility: none;
+    opacity: 0;
+    transform: translateX(100%);
+}

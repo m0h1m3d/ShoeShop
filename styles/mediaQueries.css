@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px){
+    .items{
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    };
+}
+
+@media screen and (max-width: 660px){
+    .nav-right{
+        opacity: 0;
+        display: none;
+        visibility: none;
+    }
+
+    .hidden{
+        display: block;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .main{
+        padding: 20px
+    }
+
+    .footer{
+        font-size: 0.8rem;
+    }
+    .footer h1{
+        font-size: 1.3rem;
+    }
+    .footer .links a{
+        color: #ffff;
+        text-decoration: none;
+    }
+    .socials img{
+        height: 20px;
+        width: 20px;
+    }
+}

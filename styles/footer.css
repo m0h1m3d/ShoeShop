@@ -1,0 +1,59 @@
+.footer{
+    background-color: red;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffff;
+    background-color: rgb(208, 6, 30);
+    transition: all 0.7s;
+}
+
+.footer h1{
+    align-self: flex-start;
+}
+
+.contact-us, .footer-rt{
+    width: 50%;
+    height: 250px;
+}
+
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.links{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.socials img{
+    height: auto;
+    width: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.footer-rt{
+    background-image: url('../Assets/unpaired-red-nike-sneaker.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
